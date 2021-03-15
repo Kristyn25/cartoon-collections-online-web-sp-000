@@ -5,9 +5,9 @@ def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
 end
 
-def summon_captain_planet(planeteer_calls)# code an argument here
-  planeteer_calls.map { |calls| calls.upcase }
-  puts "#{calls}!"
+def summon_captain_planet(array)# code an argument here
+  array.map { |words| words.upcase }
+  puts "#{words}!"
 end
 
 def long_planeteer_calls# code an argument here
