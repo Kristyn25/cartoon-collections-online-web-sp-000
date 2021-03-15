@@ -9,7 +9,7 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(array)# code an argument here
-  if array.any{|word| word >= 4}
+  if array.any{|word| word > 4}
     true
   else
     false
