@@ -16,10 +16,8 @@ def long_planeteer_calls(array)# code an argument here
   end
 end
 
-def find_the_cheese(array)# code an argument here
-  array.include?("cheddar")
-  array.include?("gouda")
-  array.include?("camembert")
+def find_the_cheese(cheese_types)# code an argument here
+  cheese_types.find {|cheese| cheese_types.include?(cheese) }
   # the array below is here to help
-  #cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert"]
 end
